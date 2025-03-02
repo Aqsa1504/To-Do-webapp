@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+html, body {
+    height: 100vh;
+    background-color: rgb(182, 164, 164);
+    color: rgb(78, 77, 77);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body {
+    width: 100%;
+    height: 77vh;
+    
+   
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.1);
+    background: url(bg2.jpeg);
+    background-size: cover;
+}
+
+
+h1 {
+    margin-bottom: 15px;
+}
+
+
+.input-container {
+    display: flex;
+    gap: 10px;
+    background-color: rgb(169, 163, 163);
+    padding: 10px;
+    border-radius: 5px;
+    height: 13vh;
+}
+
+#todo {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    background-color: rgb(59, 58, 58);
+    color: white;
+    border-radius: 5px;
+    outline: none;
+}
+
+button {
+    background-color: rgb(228, 159, 159);
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: rgb(196, 90, 90);
+}
+
+
+.todo, .added-tasks {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: rgb(177, 131, 131);
+    border-radius: 5px;
+    text-align: left;
+}
+
+.todo h2, .added-tasks h2 {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.todo ul, .added-tasks ul {
+    list-style-type: none;
+    padding: 0; 
+   
+} 
+ul {
+    list-style-type: none;  
+    padding: 0;
+    margin: 0;
+}
+
+.todo li{
+    background-color: rgb(147, 145, 145); 
+    display: inline-block;
+   
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+#addlist { 
+    display: flex; 
+    
+    margin-top: 5px; 
+ padding: 5px;  
+ gap: 250px; 
+ border-radius: 5px;
+
+}  
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(185, 173, 173);
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+} 
+li span {
+    flex: 1; 
+    margin-right: 10px; 
+}
+
+.delete-btn {
+    padding: 6px 12px; 
+}   
+
+
+
+
+#button2{  
+   
+    background-color: rgb(255, 69, 69);
+    color: white;
+    border: none;
+   
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s; 
+    display: flex;  
+    width: auto; 
+    margin-top: 10px auto; 
+    display: block; 
+    text-align: center;
+    
+}
+
+.button2:hover , #button2:hover{
+    background-color: rgb(255, 100, 100);
+} 
+.completed {
+    text-decoration: line-through;
+    color: gray;
+    opacity: 0.6;
+    cursor: pointer;
+}
